@@ -1,3 +1,8 @@
+
+<!-- <link rel="import" href="https://unpkg.com/Vue@3.0.2/"> -->
+<script src="https://unpkg.com/vue@3.0.2"></script>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,16 +10,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, height=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./main.js"></script>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="app">
-        <div class="header"> How many classes you drank to day </div>
+        <div class="header">🥛</div>
         <div class="counter">
-            <p> 6 </p>
+            <!-- <p> {{ water }} </p> -->
+            <div> {{ water }} </div>
         </div>
         <div class="ui">
-           <button id="button-plus"> + </button>
+           <button id="button-plus" @click="addWater"> + </button>
             <div id="ui-stack">
                 <button id="button-minus"> - </button>
                 <button id="button-reset"> reset </button>

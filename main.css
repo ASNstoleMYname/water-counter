@@ -21,19 +21,21 @@ html, body {
 
 .header {
     padding: 1rem;
-    background-color: #56595E;
+    color: #889C9B;
+    background-color: #1B1E24;
     text-align: center;
 }
 
 .counter {
     display: flex;
     justify-content: center;
+    font-size: 450%;
 }
 
 .ui {
     display: flex;
     justify-content: space-around;
-    background-color: darkgrey;
+    background-color: #1B1E24;
     padding:0.5rem;
     padding-bottom: 10px;
     font-size: 50px;
@@ -43,9 +45,28 @@ html, body {
 #ui-stack{
     display: flex;
     flex-direction: column;
+    padding: 0.2rem;
 }
 
+#button-plus, #button-minus, #button-reset {
+    border: 0px;
+    border-radius: 10px;
+}
 
+#button-plus {
+    padding: 0.7rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: x-large;
+    /* font-style:italic; */
+}
 
+#button-minus {
+    margin-bottom: 0.3rem;
+}
 
+#button-minus, #button-reset {
+    padding: 0.3rem;
+    padding-left: 2rem;
+}
 
