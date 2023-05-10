@@ -16,17 +16,17 @@
 </head>
 <body>
     <div class="app">
-        <div class="header">🥛</div>
-        <div class="counter">
-            <!-- <p> {{ water }} </p> -->
-            <div> {{ water }} </div>
+        <!-- <div class="header">🥛</div> -->
+        <div class="counter-div">
+
+            <div id="counter">   🍶{{ water }} </div>
         </div>
         <div class="ui">
-           <button id="button-plus" @click="addWater"> + </button>
             <div id="ui-stack">
+                <button id="button-plus" @click="addWater"> + </button>
                 <button id="button-minus" @click="removeWater"> - </button>
-                <button id="button-reset" @click="resetWater"> reset </button>
             </div>
+            <button id="button-reset" @click="resetWater"> reset </button>
         </div>
     </div>
     <script src="./main.js"></script>
