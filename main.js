@@ -3,6 +3,7 @@
 
 
 const app = Vue.createApp({
+    // alert("random text")
     data() {
         return {
             water: 0,
@@ -14,9 +15,13 @@ const app = Vue.createApp({
             this.water++;
         },
         removeWater() {
-            this.water--;
+            (this.water <= 0) ? false : this.water--;
+        },
+        resetWater() {
+            this.water = 0;
         }
     }
 })
+
 
 app.mount('.app')

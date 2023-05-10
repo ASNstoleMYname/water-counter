@@ -10,7 +10,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, height=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./main.js"></script>
+    <!-- <script src="./main.js"></script> -->
+    <!-- <script src="./index.js"></script> -->
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -23,10 +24,11 @@
         <div class="ui">
            <button id="button-plus" @click="addWater"> + </button>
             <div id="ui-stack">
-                <button id="button-minus"> - </button>
-                <button id="button-reset"> reset </button>
+                <button id="button-minus" @click="removeWater"> - </button>
+                <button id="button-reset" @click="resetWater"> reset </button>
             </div>
         </div>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
