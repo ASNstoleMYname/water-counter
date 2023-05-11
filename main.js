@@ -1,6 +1,6 @@
 
-// alert("javascript")
-
+console.log("🍶 water counter🍶 ");
+console.log("feel free to mod")
 
 const app = Vue.createApp({
     // alert("random text")
