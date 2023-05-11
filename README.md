@@ -1,4 +1,4 @@
-#water-counter 🍶
+water-counter 🍶
 
 ![Image](./screenshots/Screenshot_20230510_152339.png)
 
